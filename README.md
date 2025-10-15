@@ -38,4 +38,4 @@
 
 ## 版权声明
 本仓库fork于MCJPG组织仓库，使用前已经过原作者同意。
-原仓库：<github.com/mine-mcjpg/mcjpg>
+原仓库：<https://github.com/MineJPGcraft/mcjpg>
