@@ -1,16 +1,16 @@
-# MCJPG 服务器交流组织
+# MCCOM 服务器交流组织
 
-这里是Minecraft服务器集体交流组织 (MCJPG)！
+这里是Minecraft服务器集体交流组织 (MCCOM)！
 一个致力于我的世界服务器技术交流和宣传的新兴组织。
 
-[加入MCJPG社区群组](https://qm.qq.com/q/5Y4ueZdkxq)
+[加入MCCOM社区群组](https://qm.qq.com/q/5Y4ueZdkxq)
 
 ## 提交服务器
 
 在提交服务器之前，请确定你的服务器满足以下要求：
 
 - 服务器能够正常运行，且不会在短时间内关闭。
-- 服务器已经加入 **MCJPG** 组织。
+- 服务器已经加入 **MCCOM** 组织。
 
 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 
@@ -35,3 +35,7 @@
 
 3. 如果你需要显示服务器图标，请在 `docs/public/server_icons/` 目录下添加图标
 4. push 到你的仓库，然后提交 pull request。
+
+## 版权声明
+本仓库fork于MCJPG组织仓库，使用前已经过原作者同意。
+原仓库：<github.com/mine-mcjpg/mcjpg>
