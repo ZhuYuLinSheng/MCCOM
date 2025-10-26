@@ -129,8 +129,8 @@ const community = [
 
 <center>帮助我们添加服务器的贡献者们：</center>
 
-<center><a href="https://github.com/MineJPGCraft/MCJPG/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MineJPGCraft/MCJPG" alt="Contributors"/>
+<center><a href="https://github.com/zhuyulinsheng/MCCOM/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zhuyulinsheng/mccom" alt="Contributors"/>
 </a></center>
 
 <center>对以上参与者致以敬意！</center>
