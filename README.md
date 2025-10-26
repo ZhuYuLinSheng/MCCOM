@@ -9,9 +9,7 @@
 - 如果你是商业服，请保证你不会做出损害玩家权益的行为，比如圈钱后跑路。
 - 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 1. fork 本仓库, 并 clone 到本地。
-2. 修改
-```docs/.vitepress/theme/data/serverlist.ts```
-的servers字段（请严格参照原先代码的缩进格式），添加
+2. 修改docs/.vitepress/theme/data/serverlist.ts文件内的servers字段（请严格参照原先代码的缩进格式），添加
    
 ```serverlist.ts
 {
