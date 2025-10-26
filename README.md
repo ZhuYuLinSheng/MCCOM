@@ -9,6 +9,7 @@
 - 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 1. fork 本仓库, 并 clone 到本地。
 2. 修改 `docs/.vitepress/theme/data/serverlist.ts` 的servers字段（请严格参照原先代码的缩进格式），添加
+   
 ```serverlist.ts
 {
     id: 'n+1',
