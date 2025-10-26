@@ -1,8 +1,8 @@
 {
-  "name": "MCJPG",
+  "name": "MCCOM",
   "type": "module",
   "version": "1.0.0",
-  "description": "MCJPG 官网",
+  "description": "MCCOM 官网",
   "private": true,
   "devDependencies": {
     "@femm/prettier": "^1.1.0",
