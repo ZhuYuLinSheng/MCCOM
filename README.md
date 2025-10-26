@@ -1,5 +1,6 @@
 # MCCOM——服务器联合组织
 你好，这里是**MCCOM**服务器联合组织的官方仓库，我们是一个致力于我的世界服务器宣传与交流的新兴组织。
+
 [我们的社区](https://qm.qq.com/q/sef3D610t2)
 ## 加入须知
 在你加入我们之前，请确定你的服务器满足以下要求：
@@ -8,7 +9,9 @@
 - 如果你是商业服，请保证你不会做出损害玩家权益的行为，比如圈钱后跑路。
 - 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 1. fork 本仓库, 并 clone 到本地。
-2. 修改 ```docs/.vitepress/theme/data/serverlist.ts``` 的servers字段（请严格参照原先代码的缩进格式），添加
+2. 修改
+```docs/.vitepress/theme/data/serverlist.ts```
+的servers字段（请严格参照原先代码的缩进格式），添加
    
 ```serverlist.ts
 {
