@@ -25,8 +25,8 @@ const code = [
     ]
   },
   {
-    avatar: '/teammate/fireguo.png',
-    name: 'YNACH',
+    avatar: '/teammate/YNACH.png',
+    name: 'YNACh',
     title: '技术支持',
     desc: '基础的技术问题解决（雾），网站维护与官网技术负责人',
   },
