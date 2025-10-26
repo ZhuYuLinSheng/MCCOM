@@ -42,7 +42,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://mcjpg.org',
+    hostname: 'https://mccom.xyz',
   },
 
   markdown: {
@@ -65,7 +65,7 @@ export default defineConfig({
   /* 主题配置 */
   themeConfig: {
     i18nRouting: true,
-    logo: '/logo.png',
+    logo: 'https://github.com/ZhuYuLinSheng/MCCOM/blob/main/docs/public/logo.png',
     
     socialLinks,
 
@@ -76,7 +76,7 @@ export default defineConfig({
       options: {
         appId: 'VTCVHVPS1J',
         apiKey: 'c3e9345ef8310ece1bb44e178fe36dbd',
-        indexName: 'mcjpg',
+        indexName: 'mccom',
         locales: {
           ...zhSearch,
           // ...enSearch,
