@@ -12,7 +12,7 @@ import {
 } from 'vitepress/theme'
 const code = [
     {
-    avatar: '/teammate/SuiFeng.jpg',
+    avatar: '/teammate/zyls.jpg',
     name: '竹语林声',
     title: '网络开发',
     desc: 'MCCOM官网维护 | MCCOM组织创办者 | NSC系列服务器总腐竹',
