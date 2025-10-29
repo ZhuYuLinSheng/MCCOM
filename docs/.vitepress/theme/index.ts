@@ -26,7 +26,7 @@ export default {
         
     // giscus配置
     giscusTalk({
-      repo: 'MineJPGcraft/MCJPG',
+      repo: 'Zhuyulinsheng/mccom',
       repoId: 'R_kgDOMmxeOw',
       category: 'Announcements',
       categoryId: 'DIC_kwDOMmxeO84CjDGB',
