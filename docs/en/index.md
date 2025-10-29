@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: MCJPG
+  name: MCCOM
   text: MC Server Exchange Organization
   tagline: An organization dedicated to Minecraft technical communication and server promotion</br>Whether you're a player or a server owner, this is an excellent community for communication!
   image:
     src: /logo.png
-    alt: MCJPG Organization
+    alt: MCCOM Organization
   actions:
     - text: Join Group
       link: https://qm.qq.com/q/bAZle5ABzy
