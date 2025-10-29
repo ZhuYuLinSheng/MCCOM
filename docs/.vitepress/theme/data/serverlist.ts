@@ -14,55 +14,59 @@ export interface MinecraftServer {
   ip?: string
 }
   
-  export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
+  export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府',"组织官服"]
   export const serverVersions = ['中国版','互通','基岩版','1.21.X','1.21.7','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
 
   export const servers: MinecraftServer[] = [
     {
       id: '1',
-      name: 'MC生电服',
-      type: '生电',
-      version: '互通',
-      icon: '/server_icons/MC生电服.jpg',
-      description: '兼容JE1.9~1.21.1和最新BE 游戏内语音聊天 随意喷涂 趣味的生电 便捷的菜单操作 不限制传送 独家优化的整合包 无需正版',
-      link: 'https://qm.qq.com/q/QhfzwbV82Y',
-      ip: 'mc.zhuyuxuan.link'
+      name: 'MCCOM',
+      type: '组织官服',
+      version: '1.20.1',
+      icon: '/server_icons/MCCOM.png',
+      description: '(ip:mccom.xyz)组织玩家群：703870810 组织腐竹群：423950829，此为MCCOM组织大厅服，已搭载跨服传送。你可以在这里找到任何服务器，欢迎你的加入！',
+      link: 'https://qm.qq.com/q/HjGlhKaM0k',
+      ip: 'mccom.xyz'
+    },
+    {
+      id: '2',
+      name: 'NSC系列服务器——生存服',
+      type: '群组服',
+      version: '1.20.1',
+      icon: 'server_icons/NSC.png',
+      description: '(ip:mc.mccom.xyz)组织官方系列服务器——NSC生存服，有城区、货币系统，不定时开展小活动，玩家环境和谐。搭载跨服传送与跨服聊天，超多地区等你探索！',
+      link: 'https://qm.qq.com/q/HjGlhKaM0k',
+      ip: 'mc.mccom.xyz'
     },
     {
       id: '3',
-      name: 'MCRW',
-      type: '生电',
-      version: '基岩版',
-      icon: '/server_icons/MCRW.png',
-      description: '服务器群：971422762 服务器装载的插件有USF无名氏插件、飞行插件、领地插件等 飞行开启方式：输入/fly即可 服务器配置低，人多的时候尽量不要过度跑图',
-      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6KRND0sSxtuSyKXvMLPJRk2jcw30tlee&authKey=6Qbcuj%2BiemjLVwKS2wczNUg0cAffX8C%2BK%2BDb%2FdcUWEsfnLmUkZaf8N%2FukjYMkyc%2B&noverify=0&group_code=971422762'
+      name: 'NSC系列服务器——跑酷服',
+      type: '群组服',
+      version: '1.20.1',
+      icon: '/server_icons/NSC.png',
+      description: '(ip:run.mccom.xyz)组织官方系列服务器——NSC跑酷服，超好玩的跑酷地图，内含多种模式，项目玩法多样，玩一天都不觉得腻！',
+      link: 'https://qm.qq.com/q/HjGlhKaM0k',
+      ip: 'run.mccom.xyz'
     },
     {
       id: '4',
-      name: 'BugCraft',
-      type: '生存',
-      version: '互通',
-      icon: '/server_icons/BugCraft.png',
-      description: '一个 Java 和基岩互通生存服务器（基于 1.21.1），推荐 Java 版本 1.18.2 - 1.21.1，基岩版 1.21.30 无需正版登录，仅基本粘液科技插件。',
-      link: 'https://bugcraft.org/docs/bugcraft/mcjpg'
+      name: 'NSC系列服务器——小游戏服',
+      type: '群组服',
+      version: '1.20.1',
+      icon: '/server_icons/NSC.png',
+      description: '(ip:pvp.mccom.xyz)组织官方系列服务器——NSC小游戏服，内含超多小游戏！*生存起床*模式全新上线，快来玩吧！',
+      link: 'https://qm.qq.com/q/HjGlhKaM0k',
+      ip: 'pvp.mccom.xyz'
     },
     {
       id: '5',
-      name: '风河 | WindyRiver',
-      type: '生存',
-      version: '1.21',
-      icon: '/server_icons/WindyRiver.png',
-      description: '欢迎来到风河，一个大型综合性服务器！ 玩法包括【生存|天坑乱斗|游艺街(小游戏合集)】 公会 生电 粘液科技 养老 语音聊天 资源维度 结婚 通行证 PVP 小游戏 放在家中的高性能永久物理服务器，i9-14900K+64G内存，为玩家的游玩体验保驾护航。 事不宜迟，快来加入风河吧~',
-      link: 'https://qm.qq.com/q/VvtGhFSfkI'
-    },
-    {
-      id: '6',
-      name: 'RedStarMC',
+      name: 'NSC系列服务器——泥土商店服',
       type: '群组服',
-      version: '1.21.1',
-      icon: '/server_icons/Unknown.png',
-      description: '版本：JAVA 1.7-1.21.4 粘液科技生存服与生电服',
-      link: 'https://wiki.redstarmc.top'
+      version: '1.20.1',
+      icon: '/server_icons/NSC.png',
+      description: '(ip:soil.mccom.xyz)组织官方系列服务器——NSC泥土商店服，通过挖取泥土来获得资源！含有货币系统，服内还有超多其他玩法等你发现！',
+      link: 'https://qm.qq.com/q/HjGlhKaM0k',
+      ip: 'soil.mccom.xyz'
     },
     {
       id: '7',
