@@ -446,6 +446,16 @@ export interface MinecraftServer {
       description: '1.21.8互通服 离线可进 粘液科技 语音聊天 公会 领地 欢迎新玩家加入',
       link: 'https://qm.qq.com/q/YcVqH0waMk',
       ip: 'shamizo.top'
+    },
+    {
+      id: '50',
+      name: 'YLCH',
+      type: '生存',
+      version: '互通',
+      icon: '/server_icons/ylch.png',
+      description: '1.21.8互通服 JAVA理论1.7.0以上皆可，1.21.8为最佳，基岩1.21.10以上，1.21.90以下，有系统商店等更多功能扩展，采用Folia系的Luminol多线程核心，防炸，防爆，自动备份',
+      link: 'https://qm.qq.com/q/9oGfufALq8',
+      ip: 'dhn.yiandrive.com:14870'
     }
    ]
 
