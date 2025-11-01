@@ -42,7 +42,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://mccom.xyz',
+    hostname: 'https://mccom.ling-hong.top',
   },
 
   markdown: {
