@@ -460,6 +460,16 @@ export interface MinecraftServer {
       description: '1.21.8互通服 JAVA理论1.7.0以上皆可，1.21.8为最佳，基岩1.21.10以上，1.21.90以下，有系统商店等更多功能扩展，采用Folia系的Luminol多线程核心，防炸，防爆，自动备份',
       link: 'https://qm.qq.com/q/9oGfufALq8',
       ip: 'dhn.yiandrive.com:14870'
+    },
+    {
+      id: '51',
+      name: 'Cloud Cat-白云猫',
+      type: '生存 基岩',
+      version: '1.21.114',
+      icon: '/server_icons/bymw.jpg',
+      description: '欢迎加入基岩版公益养老种田服务器「白云猫」！在这里，你可远离纷扰，享受宁静田园生活：种植多样作物、烹饪美食、酿造美酒、装饰家园；体验轻量冒险与红石生电乐趣。友好社区，温馨共建，监督公开透明。一起在方块世界，找到属于你的世外桃源！',
+      link: 'https://qm.qq.com/q/Tb8pdXbqAG',
+      ip: 'kpa.mc6.cn:39379'
     }
    ]
 
