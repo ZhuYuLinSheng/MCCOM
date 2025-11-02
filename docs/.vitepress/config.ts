@@ -13,7 +13,7 @@ const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
   outDir: '../dist',
-  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
+  base: '/',
 
   lang: 'zh-CN',
 
@@ -42,7 +42,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://mccom.xyz',
+    hostname: 'https://mccom.ling-hong.top',
   },
 
   markdown: {
