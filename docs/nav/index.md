@@ -2,7 +2,7 @@
 title: MC导航
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
-description: MC导航网,由MCJPG组织提供,我们致力于为大家提供更好用的Minecraft导航
+description: MC导航网,由MCCOM组织提供,我们致力于为大家提供更好用的Minecraft导航
 ---
 
 <script setup>
@@ -19,8 +19,8 @@ import { NAV_DATA } from './data'
 ## 帮助我们添加链接
 
 ::: tip 如何修改导航？
-[docs/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 JSON 格式编辑即可。  
-如果您是站长，麻烦添加 [MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 到您的站点相应位置，[MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 感激不尽
+[docs/nav/data.ts](https://github.com/zhuyulinsheng/mccom/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 JSON 格式编辑即可。  
+如果您是站长，麻烦添加 [MCJPG组织](https://mccom.xyz/ "MCJPG组织官网") 到您的站点相应位置，[MCJPG组织](https://mccom.xyz/ "MCJPG组织官网") 感激不尽
 
 TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
 :::
