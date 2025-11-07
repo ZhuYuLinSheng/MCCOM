@@ -11,15 +11,15 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: '/logo.png',
-        title: 'MCJPG官网',
+        title: 'MCCOM官网',
         desc: '我们的官网',
-        link: 'https://mcjpg.org/',
+        link: 'https://mccom.xyz/',
       },
       {
         icon: '/logo.png',
         title: '官网开发站点',
         desc: '实时同步最新官网代码更新',
-        link: 'https://dev.mcjpg.org/',
+        link: 'https://dev.mccom.xyz/',
       },
     ],
   },
@@ -28,14 +28,14 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: '/icons/project/casdoor.png',
-        title: 'MCJPG通行证',
-        desc: 'MCJPG统一的账户系统',
+        title: 'MCCOM通行证',
+        desc: 'MCCOM统一的账户系统',
         link: 'https://sso.mcjpg.org/login/mcjpgorg/',
       },
       {
         icon: '/icons/project/google-color.svg',
         title: '元搜索',
-        desc: 'MCJPG部署的元搜索引擎',
+        desc: 'MCCOM部署的元搜索引擎',
         link: 'https://search.mcjpg.org',
       },
       {
