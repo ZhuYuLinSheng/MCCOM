@@ -54,25 +54,25 @@ export const zh_CN = defineConfig({
           title:'请求错误',
           quote:'服务器无法理解客户端的请求',
           linkText:'返回首页'
-        }，
+        },
         unauthorized: {
           code:'401',
           title:'登录信息无效',
           quote:'用户未登录或登录信息无效',
           linkText:'返回首页'
-        }，
+        },
         forbidden: {
           code:'403',
           title:'拒绝访问',
           quote:'用户没有访问权限',
           linkText:'返回首页'
-        }，
+        },
         internalServerError: {
           code:'500',
           title:'服务器错误',
           quote:'服务器过载或服务器配置错误',
           linkText:'返回首页'
-        }，
+        }
     }
 })
 
