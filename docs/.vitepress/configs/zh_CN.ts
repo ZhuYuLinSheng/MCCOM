@@ -47,29 +47,29 @@ export const zh_CN = defineConfig({
           code:'404',
           title:'不存在的页面',
           quote:'这里什么都没有，去别处看看吧，实在无聊可以去社区群组聊聊天',
-          linkText:'返回首页',
+          linkText:'返回首页'
         },
         badRequest: {
           code:'400',
-          title:'请求错误'
+          title:'请求错误',
           quote:'服务器无法理解客户端的请求',
           linkText:'返回首页'
         }，
         unauthorized: {
           code:'401',
-          title:'登录信息无效'
+          title:'登录信息无效',
           quote:'用户未登录或登录信息无效',
           linkText:'返回首页'
         }，
         forbidden: {
           code:'403',
-          title:'拒绝访问'
+          title:'拒绝访问',
           quote:'用户没有访问权限',
           linkText:'返回首页'
         }，
         internalServerError: {
           code:'500',
-          title:'服务器错误'
+          title:'服务器错误',
           quote:'服务器过载或服务器配置错误',
           linkText:'返回首页'
         }，
