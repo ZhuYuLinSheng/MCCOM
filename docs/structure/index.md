@@ -96,6 +96,12 @@ const thanks = [
     title: '特殊贡献人员',
     desc: '帮助我们构建了本站，没有TA你们就不知道我们了',
   },
+  {
+    avatar: '/teammate/fireguo.png',
+    name: '方块人指令版',
+    title: '特殊贡献人员',
+    desc: '赞助大蛇，给我们组织提供了大量资金支持（bushi）',
+  },
 ]
 
 </script>
