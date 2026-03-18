@@ -35,7 +35,9 @@ export default defineConfig({
     },
   },
 
-  head,
+  head: [
+    ['meta', { name: 'description', content: 'MCCOM是一个专业的我的世界(Minecraft)中文社区门户。提供最新、最全的MC服务器列表、Mod整合包、插件、地图、材质包下载及游戏攻略分享。致力于为广大MC玩家提供高品质的游戏资源与技术交流平台。' }],
+    // 其他全局标签,
 
   lastUpdated: true,
   cleanUrls: true,
