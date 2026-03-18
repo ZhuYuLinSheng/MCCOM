@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18  # 可改为 20
+          node-version: 20 # 建议使用 LTS 版本
 
       - name: Install dependencies
         run: npm install
@@ -35,7 +35,7 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist  # 与 Cloudflare Pages 的“构建输出”一致
+          path: dist
 
   deploy:
     environment:
@@ -47,3 +47,30 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # 新增：部署成功后通知 Bing
+  notify-bing:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
+      - name: Extract and Submit URLs
+        run: |
+          # 解压 artifact 得到生成的 HTML 文件
+          mkdir temp_dist && tar -xf artifact.tar -C temp_dist
+          
+          # 自动生成 URL 列表 (排除 404 页面)
+          # 将路径转换为 https://mccom.xyz/xxx 格式
+          URLS=$(find temp_dist -name "*.html" ! -name "404.html" | sed "s|temp_dist|https://mccom.xyz|g" | sed "s|/index.html|/|g" | sed "s|.html||g" | jq -R . | jq -s .)
+          
+          # 发送 POST 请求给 Bing API
+          curl -X POST "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=${{ secrets.BING_API_KEY }}" \
+          -H "Content-Type: application/json; charset=utf-8" \
+          -d "{
+                \"siteUrl\": \"https://mccom.xyz\",
+                \"urlList\": $URLS
+              }"
